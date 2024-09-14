@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+    <style>
+        /* CSS styles go here */
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        
+        p {
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My First Web Page!</h1>
+    
+    <p>This is an example of a simple web page that includes both CSS and JavaScript.</p>
+    
+    <button id="myButton">Click Me</button>
+    
+    <script>
+        // JavaScript code goes here
+        var message = "Hello, World!";
+        console.log(message);
+        
+        var button = document.getElementById("myButton");
+        button.addEventListener("click", function() {
+            alert("Button clicked!");
+        });
+    </script>
+</body>
+</html>
